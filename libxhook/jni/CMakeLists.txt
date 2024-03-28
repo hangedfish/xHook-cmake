@@ -3,7 +3,7 @@ project(xhook)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(xhook SHARED
+add_library(xhook STATIC
         xhook.c
         xh_core.c
         xh_elf.c
